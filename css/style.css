@@ -1,0 +1,56 @@
+.search {
+  display: flex;
+  padding: 20px;
+}
+
+.search > select {
+  margin-right: 15px;
+  width: 300px;
+}
+
+.info-container {
+    display: flex;
+    margin: 0 20px;
+}
+
+#detailedInfo {
+    margin: 0 10px 10px;
+    background: white;
+    border-radius: 12px;
+}
+
+#detailedInfo .temp {
+    display: float;
+}
+
+#hourlyInfo {
+    display: flex;
+}
+
+.hour-item {
+    margin-right: 10px;
+}
+
+#hourlyInfo table tr td:first-child {
+    padding-right: 10px;
+}
+
+#hourlyInfo hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.detailed-card {
+    padding: 16px;
+}
+
+body {
+    background: #eceef2;
+}
